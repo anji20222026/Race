@@ -1,0 +1,35 @@
+{
+	"sql": {
+		"user": "root",
+		"password": "root",
+		"host": "127.0.0.1",
+		"port": 3306,
+		"database": "exchange"
+	},
+	"redis": {
+		"user": "11111",
+		"password": "1111",
+		"host": "11111"
+	},
+	"exchange": {
+		"api": "wpFnsJTjZCLMF6DtAxysqMSpGjZSxlYp5kZRNtj3t98JZPBQR5i9F14HZhEoFvLq",
+		"scrt": "qI0rEu1ooPtALEF14cLBRim1HrEwbGQwRPLajfVGTC5X7zQB3yJfiAeam9C2ZTch",
+		"currency": {
+			"BTCUSDT": {
+				"interval": "15m",
+				"types": ["spot", "feturce"]
+			},
+			"ETHUSDT": {
+				"interval": "15m"
+			}
+		},
+		"binance": {}
+	},
+	"kafka": {
+		"user": "11111",
+		"password": "1111",
+		"host": "11111",
+		"topic": ["BUY", "SELL"]
+	},
+	"strategy": {}
+}
